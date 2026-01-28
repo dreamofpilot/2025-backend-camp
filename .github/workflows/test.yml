@@ -1,6 +1,8 @@
 name: Check
 on:
   push:
+    branches: [ "main" ]  # 明確告訴它監聽 main
+  workflow_dispatch:      # 強制開啟手動執行按鈕
 
 
 jobs:
